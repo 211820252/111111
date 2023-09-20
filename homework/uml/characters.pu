@@ -1,0 +1,76 @@
+@startuml characters
+
+skinparam dpi 800
+
+
+class Being
+
+class Creature {
+    int health
+    int attack
+    int defense
+    String[] memory
+
+    speakTo()
+    listen()
+    attack()
+    receiveAttack()
+    isDead()
+    rolleyes()
+    blink()
+    move()
+    sniff()
+    LeverageObject()
+    smile()
+    laughAtSomeone()
+    touchHead()
+    jump()
+    beShocked()
+}
+
+class Human {
+    useSkill()
+    cancleSkill()
+}
+
+class SixGourdBaby {
+    boolean whetherVisible
+}
+
+class Monster {
+    int magic
+    bePissed()
+    sleep()
+}
+
+class SpiderWeb{
+    shrink()
+}
+
+class Flagon{
+    emitFragrance()
+    rollWithNoise()
+}
+
+class Nail{
+    bounce()
+}
+
+class Gate{
+    boolean whetherOpen
+    open()
+    close()
+}
+
+Creature --|> Being
+Flagon --|> Being
+Gate --|> Being
+Nail --|> Being
+SpiderWeb --|> Being
+
+Monster --|> Creature
+Human --|> Creature
+
+SixGourdBaby --|> Human
+
+@enduml

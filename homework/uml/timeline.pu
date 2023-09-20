@@ -1,0 +1,155 @@
+' https://www.bilibili.com/video/BV1Fk4y1V7Lf/?p=11
+' 3:52~6:04
+
+@startuml timeline
+
+skinparam dpi 800
+
+actor       六娃     as sixthGourdBaby      #Blue
+actor       蛤蟆精     as toad     #Green
+actor       蜈蚣精     as centipede     #Purple
+actor       粉色蝙蝠精     as pinkbat     #Pink
+actor       黄色蝙蝠精     as yellowbat      #Yellow
+actor       蜘蛛精      as     spider     #DarkRed
+entity      蛛网     as spiderweb   #White
+entity      大门     as gate        #Black
+entity      钉子     as nail        #Grey
+entity      酒壶     as flagon      #Brown
+
+centipede -[#Purple]> toad : 命令
+note left
+喂，你留点神！好好的把好这一门！
+end note
+
+toad -[#Green]> toad : 眨眨眼
+
+toad -[#Green]> centipede : 回怼
+note right:你算老几，多管闲事！
+
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 眨眼
+
+toad -[#Green]> centipede : 告诉
+note right:这儿有我把门，谁也进不来！
+
+sixthGourdBaby -[#Blue]> sixthGourdBaby :偷听了解到
+note left:这里只有一只不太靠谱的蛤蟆在守门
+
+toad -[#Green]> centipede : 嘲讽
+note right
+你还是自己管好自己，别像上回那样再掉进网里了！
+哈哈哈哈哈哈！
+end note
+
+centipede -[#Purple]> centipede : 挠挠头
+centipede -[#Purple]> centipede : 生气地攥紧拳头
+centipede -[#Purple]> centipede : 离开大门向里走
+
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 挠挠头，思考进入大门的方法
+sixthGourdBaby -[#Blue]> flagon : 捡起并闻了闻
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 眨眨眼并转转眼珠
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 想到了方法并微笑
+sixthGourdBaby -[#Blue]> flagon : 倾斜
+
+flagon -[#Brown]> flagon : 流出一滴酒并散发酒香
+
+toad -[#Green]> flagon : 闻到酒香
+toad -[#Green]> toad : 高兴地笑
+toad -[#Green]> toad : 感叹道
+note left:好香啊！
+toad -[#Green]> gate : 打开
+
+gate -[#Black]> gate : 开启
+
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 隐身
+sixthGourdBaby -[#Blue]> gate : 进入
+
+toad -[#Green]> flagon : 捡起
+toad -[#Green]> gate : 关闭
+
+gate -[#Black]> gate : 关闭
+
+toad -[#Green]> flagon : 倾倒
+
+sixthGourdBaby -[#Blue]> toad : 隐身状态下盯着笑
+
+toad -[#Green]> flagon : 发现没有酒了
+note right:去你的！
+toad -[#Green]> flagon : 踢走
+
+flagon -[#Brown]> flagon : 滚动并发出响声
+
+pinkbat -[#Pink]> flagon : 听到响声
+pinkbat -[#Pink]> pinkbat : 警觉
+note left:谁？ 
+
+centipede -[#Purple]> flagon : 听到响声
+centipede -[#Purple]> centipede : 警觉
+note right:谁？
+centipede -[#Purple]> centipede : 转转眼珠
+
+toad -[#Green]>pinkbat : 嘲笑
+note right
+我扔了个空酒壶，又惹到你们了？
+大惊小怪！
+哈哈哈哈...
+end note
+toad -[#Green]>centipede : 嘲笑
+note right
+我扔了个空酒壶，又惹到你们了？
+大惊小怪！
+哈哈哈哈...
+end note
+
+pinkbat -[#Pink]> pinkbat : 生气地攥紧拳头
+
+centipede -[#Purple]> centipede : 生气地攥紧拳头
+
+toad -[#Green]> toad: 打哈欠伸懒腰，准备开始偷懒睡觉
+
+sixthGourdBaby -[#Blue]> nail : 隐身状态下扣下
+
+nail -[#Grey]> nail : 顺着道路不断向下弹跳
+
+centipede -[#Purple]> pinkbat : 命令
+note left:你这这守着，别走开！
+centipede -[#Purple]> centipede : 跟着钉子走了一段路
+centipede -[#Purple]> yellowbat : 命令
+note left 
+可别打盹，把眼睛睁大点儿！
+哼！
+end note
+
+nail -[#Grey]> nail : 顺着道路继续向下弹跳
+
+centipede -[#Purple]> centipede : 跟着钉子又走了一段路
+centipede -[#Purple]> nail : 踩到
+
+nail -[#Grey]> centipede : 伤到
+
+centipede -[#Purple]> centipede : 因痛不断蹦跳
+centipede -[#Purple]> spiderweb : 不慎落进
+
+spider -[#DarkRed]> spiderweb : 向上拉动
+
+spiderweb -[#White]> spiderweb : 向上收缩
+
+centipede -[#Purple]> spider : 痛骂
+note right:是我！快放开我！
+
+toad -[#Green]> centipede : 嘲笑
+note right:哈哈！又掉进网里了吧！
+
+pinkbat -[#Pink]> pinkbat : 感到震惊
+
+centipede -[#Purple]> spider : 痛骂
+note right
+快放开我！
+又是你这个瞎了眼的混蛋！
+end note
+
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 穿过这些妖精到达另一处大门
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 现形
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 露出满足的微笑
+sixthGourdBaby -[#Blue]> sixthGourdBaby : 重新隐身并继续前进
+
+@enduml
